@@ -150,25 +150,6 @@ These visualizations help identify:
 * Discount analysis helps identify attractive offers.
 * Category analysis helps understand market distribution.
 
----
-
-## Project Structure
-
-```
-shopping-analysis/
-
-│── data/
-│   └── cleaned_combined_dataset.csv
-
-│── notebook/
-│   └── Shopping_Dataset_EDA_Cleaning.ipynb
-
-│── README.md
-
-│── requirements.txt
-```
-
----
 
 ## Author
 
