@@ -1,0 +1,9 @@
+E-COMMERCE ORDER ANALYTICS
+DATA QUALITY REPORT
+==================================================
+
+1. Orders: 48 rows have missing customer_id.
+2. Orders: 44 dates were converted from DD-MM-YYYY format.
+3. Products: Product names were trimmed and converted to title case.
+4. Customers: 10 invalid email addresses found.
+5. Order Items: 76 negative quantities found (treated as returns).
