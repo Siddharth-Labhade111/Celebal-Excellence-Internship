@@ -38,10 +38,6 @@ Data Source (CSV) → AWS S3 → Bronze (Delta) → Silver (Delta, SCD2) → Gol
 | **Silver** | Ensure clean, reliable, deduplicated data | Null/duplicate removal, format standardization, type casting, **SCD Type 2 via MERGE INTO** |
 | **Gold** | Business-ready insight tables | Aggregations: patient count per hospital, hospital ranking, condition contribution, admission type distribution, insurance breakdown |
 
-See [`docs/screenshots/`](docs/screenshots) for visual evidence of each stage
-running successfully, and [`docs/Databricks_Stepwise_Guide.md`](docs/Databricks_Stepwise_Guide.md)
-for the full build walkthrough.
-
 ---
 
 ## 3. Technology Stack
